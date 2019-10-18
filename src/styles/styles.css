@@ -1,0 +1,76 @@
+p{
+    margin: 2px;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 50px;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px;
+    display: flex;
+}
+
+.header .logo {
+    max-height: 50px;
+}
+
+.header .search {
+    font-size: 17px;
+    color: #484848;
+    padding: 5px;
+}
+
+.search input {
+    height: 100%;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 17px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-item {
+    margin: 5px 10px 10px;
+    max-width: 380px;
+    min-width: 220px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+
+.card-img {
+    width: 100%;
+    max-height: 200px;
+    min-height: 170px;
+}
+
+.content-img {
+    padding: 5px;
+}
+
+img {
+    border-radius: 3px;
+}
+
+.card-footer {
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.subtitle {
+    color: #767676;
+    font-size: 12px;
+}
